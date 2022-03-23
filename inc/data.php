@@ -63,7 +63,7 @@ $catalog[104] = [
 //Movies
 $catalog[201] = [
     "title" => "Forrest Gump",
-    "img" => "img/media/forest_gump.jpg",
+    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/forest_gump.jpg?alt=media&token=ce7bbef6-30b5-4ecd-b1d7-0df896e21a6d",
     "genre" => "Drama",
     "format" => "DVD",
     "year" => 1994,
@@ -82,7 +82,7 @@ $catalog[201] = [
 ];
 $catalog[202] = [
     "title" => "Office Space",
-    "img" => "img/media/office_space.jpg",
+    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/office_space.jpg?alt=media&token=eb101a4a-7293-4aa8-ac8e-ab8ee3df3a75",
     "genre" => "Comedy",
     "format" => "Blu-ray",
     "year" => 1999,
@@ -102,7 +102,7 @@ $catalog[202] = [
 ];
 $catalog[203] = [
     "title" => "The Lord of the Rings: The Fellowship of the Ring",
-    "img" => "img/media/lotr.jpg",
+    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/lotr.jpg?alt=media&token=b5e79bdd-f5a7-4809-9979-aea41e8ee83f",
     "genre" => "Drama",
     "format" => "Blu-ray",
     "year" => 2001,
@@ -125,7 +125,7 @@ $catalog[203] = [
 ];
 $catalog[204] = [
     "title" => "The Princess Bride",
-    "img" => "img/media/princess_bride.jpg",
+    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/princess_bride.jpg?alt=media&token=92799559-6050-4e8e-a55d-af00421ce74e",
     "genre" => "Comedy",
     "format" => "DVD",
     "year" => 1987,
@@ -150,7 +150,7 @@ $catalog[204] = [
 //Music
 $catalog[301] = [
     "title" => "Beethoven: Complete Symphonies",
-    "img" => "img/media/beethoven.jpg",
+    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/beethoven.jpg?alt=media&token=a361ac3c-f032-4fac-845c-060f51bf3721",
     "genre" => "Clasical",
     "format" => "CD",
     "year" => 2012,
@@ -159,7 +159,7 @@ $catalog[301] = [
 ];
 $catalog[302] = [
     "title" => "Elvis Forever",
-    "img" => "img/media/elvis_presley.jpg",
+    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/elvis_presley.jpg?alt=media&token=43861468-c0c4-467f-b1bd-861b62cf27e3",
     "genre" => "Rock",
     "format" => "Vinyl",
     "year" => 2015,
@@ -168,7 +168,7 @@ $catalog[302] = [
 ];
 $catalog[303] = [
     "title" => "No Fences",
-    "img" => "img/media/garth_brooks.jpg",
+    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/garth_brooks.jpg?alt=media&token=7753aacf-0138-4de3-a0a3-ab3ad181eabd",
     "genre" => "Country",
     "format" => "Cassette",
     "year" => 1990,
@@ -177,7 +177,7 @@ $catalog[303] = [
 ];
 $catalog[304] = [
     "title" => "The Very Thought of You",
-    "img" => "img/media/nat_king_cole.jpg",
+    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/nat_king_cole.jpg?alt=media&token=7a835f8b-9d85-4870-9f52-11280b331af5",
     "genre" => "Jaz",
     "format" => "MP3",
     "year" => 2008,
