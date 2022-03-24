@@ -15,7 +15,11 @@ if (isset($_GET["cat"])) {
   } else if ($_GET["cat"] == "music") {
     $pageTitle = "Music";
     $section = "music";
+  } else if ($_GET["cat"] == "games") {
+    $pageTitle = "Games";
+    $section = "games";
   }
+
 }
 
 include("inc/header.php"); ?>
