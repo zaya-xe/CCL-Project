@@ -75,7 +75,7 @@ include("inc/header.php"); ?>
               <td><?php echo $item["director"]; ?></td>
             </tr>
             <tr>
-              <th>Writes</th>
+              <th>Writers</th>
               <td><?php echo implode(", ", $item["writers"]); ?></td>
             </tr>
             <tr>
