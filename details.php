@@ -67,7 +67,7 @@ include("inc/header.php"); ?>
             </tr>
             <tr>
               <th>Platform</th>
-              <td><?php echo $item["platform"]; ?></td>
+              <td><?php echo $item["Platform"]; ?></td>
             </tr>
             <tr>
               <th>Ratings</th>

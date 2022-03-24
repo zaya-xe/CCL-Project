@@ -32,6 +32,6 @@ while($line=mysqli_fetch_array($result3)) {
     }
 
 while($line=mysqli_fetch_array($result4)) {    
-    $catalog[$line['id']]=array('title'=>$line['title'],'img'=>$line['img'],'genre'=>$line['genre'],'year'=>$line['year'],'company'=>$line['company'],'Description'=>$line['Description'],'platform'=>$line['platform'],'ratings'=>$line['ratings'],'format'=>$line['format'],'format'=>$line['format'],'category'=>$line['category']);
+    $catalog[$line['id']]=array('title'=>$line['title'],'img'=>$line['img'],'genre'=>$line['genre'],'year'=>$line['year'],'company'=>$line['company'],'description'=>$line['description'],'Platform'=>$line['Platform'],'ratings'=>$line['ratings'],'format'=>$line['format'],'format'=>$line['format'],'category'=>$line['category']);
     }
 
