@@ -5,9 +5,9 @@ $catalog = [];
 define('DB_SERVER', 'testccl.cizkj1gldurq.us-east-1.rds.amazonaws.com');
 define('DB_USERNAME', 'admin');
 define('DB_PASSWORD', 'adminadmin');
-define('DB_DATABASE', 'testccl');
+define('DB_DATABASE', 'cats');
 
-$connection = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD) or die(mysql_error());
+$conn = new mysqli('testccl.cizkj1gldurq.us-east-1.rds.amazonaws.com', 'admin', 'adminadmin', 'Cats') or die(mysql_error());
 
 
 
