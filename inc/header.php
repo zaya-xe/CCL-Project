@@ -12,7 +12,7 @@
 			<h1 class="branding-title"><a href="/">Personal Media Library</a></h1>
 
 			<ul class="nav">
-		<li class ="games<?php if ($section == "games") {echo "on";} ?>"><a href="catalog.php?cat=games">Games</a></li>
+		<li class="games<?php if ($section == "games") {echo " on";} ?>"><a href="catalog.php?cat=games">Games</a></li>
         <li class="books<?php if ($section == "books") {echo " on";} ?>"><a href="catalog.php?cat=books">Books</a></li>
         <li class="movies<?php if ($section == "movies") {echo " on";} ?>"><a href="catalog.php?cat=movies">Movies</a></li>
         <li class="music<?php if ($section == "music") {echo " on";} ?>"><a href="catalog.php?cat=music">Music</a></li>
