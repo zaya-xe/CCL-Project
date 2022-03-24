@@ -1,6 +1,21 @@
 <?php 
 $catalog = [];
 //Books
+
+define('DB_SERVER', 'testccl.cizkj1gldurq.us-east-1.rds.amazonaws.com');
+define('DB_USERNAME', 'admin');
+define('DB_PASSWORD', 'adminadmin');
+define('DB_DATABASE', 'testccl');
+
+$connection = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD) or die(mysql_error());
+
+
+
+
+
+
+
+
 $catalog[101] = [
 	"title" => "A Design Patterns: Elements of Reusable Object-Oriented Software",
 	"img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/design_patterns.jpg?alt=media&token=6f12a263-9436-4997-9724-f7346360aa73",
