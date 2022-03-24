@@ -17,185 +17,215 @@ $conn = new mysqli('testccl.cizkj1gldurq.us-east-1.rds.amazonaws.com', 'admin', 
 
 
 $catalog[101] = [
-	"title" => "A Design Patterns: Elements of Reusable Object-Oriented Software",
-	"img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/design_patterns.jpg?alt=media&token=6f12a263-9436-4997-9724-f7346360aa73",
-    "genre" => "Tech",
+	"title" => "The Monk Who Sold His Ferrari",
+	"img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/monkwhosold.png?alt=media&token=4a2acc73-48ed-442a-815d-e42bb900bb27",
+    "genre" => " Fiction",
     "format" => "Paperback",
-    "year" => 1994,
-    "category" => "Books",
-    "authors" => [
-        "Erich Gamma",
-        "Richard Helm",
-        "Ralph Johnson",
-        "John Vlissides"
-    ],
-    "publisher" => "Prentice Hall",
-    "isbn" => '978-0201633610'
-];
-$catalog[102] = [
-    "title" => "Clean Code: A Handbook of Agile Software Craftsmanship",
-    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/clean_code.jpg?alt=media&token=4fa49275-7a9c-47be-9dea-510d8ea065bc",
-    "genre" => "Tech",
-    "format" => "Ebook",
-    "year" => 2008,
-    "category" => "Books",
-    "authors" => [
-        "Robert C. Martin"
-    ],
-    "publisher" => "Prentice Hall",
-    "isbn" => '978-0132350884'
-];
-$catalog[103] = [
-    "title" => "Refactoring: Improving the Design of Existing Code",
-    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/refactoring.jpg?alt=media&token=82cb0fe5-b9a6-4dc9-b649-520781786ec7",
-    "genre" => "Tech",
-    "format" => "Hardcover",
     "year" => 1999,
     "category" => "Books",
     "authors" => [
-        "Martin Fowler",
-        "Kent Beck",
-        "John Brant",
-        "William Opdyke",
-        "Don Roberts"
+        "Robin Sharma",
     ],
-    "publisher" => "Addison-Wesley Professional",
-    "isbn" => '978-0201485677'
+    "publisher" => "HarperSanFrancisco",
+    "isbn" => '978-0002008594'
 ];
-$catalog[104] = [
-    "title" => "The Clean Coder: A Code of Conduct for Professional Programmers",
-    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/clean_coder.jpg?alt=media&token=f4e3a638-e742-452c-a16e-7190f8610d65",
-    "genre" => "Tech",
-    "format" => "Audio",
-    "year" => 2011,
+$catalog[102] = [
+    "title" => "2 States: The Story Of My Marriage",
+    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/2states.jpg?alt=media&token=d52a4793-e740-4571-a8ad-a595b394a61a",
+    "genre" => "Fiction, Romance",
+    "format" => "Paperback",
+    "year" =>  2009,
     "category" => "Books",
     "authors" => [
-        "Robert C. Martin"
+        "Chetan Bhagat"
     ],
-    "publisher" => "Prentice Hall",
-    "isbn" => '007-6092046981'
+    "publisher" => "Rupa Publications Pvt. Ltd",
+    "isbn" => '978-8129115300'
+];
+$catalog[103] = [
+    "title" => " Wings of Fire",
+    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/wingsoffire.jpg?alt=media&token=f02b4a4e-8990-4371-a051-cbcab89951c2",
+    "genre" => "Autobiography",
+    "format" => "Paperback",
+    "year" => 1999,
+    "category" => "Books",
+    "authors" => [
+        "A P J Abdul Kalam",
+        "Arun Tiwari",
+    ],
+    "publisher" => "Universities Press",
+    "isbn" => '	817-3711461'
+];
+$catalog[104] = [
+    "title" => "Gitanjali",
+    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/gitanjali.jpg?alt=media&token=f108d7e0-2894-4ebc-9fdd-ddbc1aab2071",
+    "genre" => "Poem",
+    "format" => "Ebook",
+    "year" =>1910,
+    "category" => "Books",
+    "authors" => [
+        "Rabindranath Tagore"
+    ],
+    "publisher" => "Simon & Schuster",
+    "isbn" => '978-9392468148'
 ];
 //Movies
 $catalog[201] = [
-    "title" => "Forrest Gump",
-    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/forest_gump.jpg?alt=media&token=ce7bbef6-30b5-4ecd-b1d7-0df896e21a6d",
-    "genre" => "Drama",
+    "title" => "Gully Boy",
+    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/gullyboy.jpg?alt=media&token=2bb5ba15-3e9c-418f-bd08-4615d402f8a7",
+    "genre" => "Musical/Romance",
     "format" => "DVD",
-    "year" => 1994,
+    "year" => 2019,
     "category" => "Movies",
-    "director" => "Robert Zemeckis",
+    "director" => "Zoya Akhtar",
     "writers" => [
-        "Winston Groom",
-        "Eric Roth"
+        "Reema Kagti",
+        "Vijay Maurya",
     ],
     "stars" => [
-        "Tom Hanks",
-        "Rebecca Williams",
-        "Sally Field",
-        "Michael Conner Humphreys"
+        "Ranveer Singh",
+        "Alia Bhatt",
+"       Siddhant Chaturvedi",
     ]
 ];
 $catalog[202] = [
-    "title" => "Office Space",
-    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/office_space.jpg?alt=media&token=eb101a4a-7293-4aa8-ac8e-ab8ee3df3a75",
-    "genre" => "Comedy",
+    "title" => "Baahubali: The Beginning",
+    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/bahubali.jpg?alt=media&token=f0f452f6-ab94-4ce8-b49f-0e9946a2376d",
+    "genre" => "Action, Drama,Romance,Fantasy,Historical Fiction,War,Adventure",
     "format" => "Blu-ray",
-    "year" => 1999,
+    "year" => 2015,
     "category" => "Movies",
-    "director" => "Mike Judge",
+    "director" => "S.S. Rajamouli",
     "writers" => [
-        "William Goldman"
+        "Vijayendra Prasad",
+        "C.H. Vijay Kumar",
     ],
     "stars" => [
-        "Ron Livingston",
-        "Jennifer Aniston",
-        "David Herman",
-        "Ajay Naidu",
-        "Diedrich Bader",
-        "Stephen Root"
+        "Prabhas",
+        "Rana Daggubati",
+        "Ramya Krishnan",
+        "Sathyaraj",
+        "Anushka Shetty",
+        "Tamannaah Bhatia"
     ]
 ];
 $catalog[203] = [
-    "title" => "The Lord of the Rings: The Fellowship of the Ring",
-    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/lotr.jpg?alt=media&token=b5e79bdd-f5a7-4809-9979-aea41e8ee83f",
-    "genre" => "Drama",
+    "title" => "3 Idiots",
+    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/3idiots.jpg?alt=media&token=802a8649-8be8-42d9-b5d9-08a011ce6b0b",
+    "genre" => "Drama, Comedy,Romance",
     "format" => "Blu-ray",
-    "year" => 2001,
+    "year" => 2009,
     "category" => "Movies",
-    "director" => "Peter Jackson",
+    "director" => "Rajkumar Hirani",
     "writers" => [
-        "J.R.R. Tolkien",
-        "Fran Walsh",
-        "Philippa Boyens",
-        "Peter Jackson"
+        "Rajkumar Hirani",
+        "Abhijat Joshi",
     ],
     "stars" => [
-        "Ron Livingston",
-        "Jennifer Aniston",
-        "David Herman",
-        "Ajay Naidu",
-        "Diedrich Bader",
-        "Stephen Root"
+        "Aamir Khan",
+        "R. Madhavan",
+        "Sharman Joshi",
+        "Omi Vaidya",
+        "Boman Irani",
+        "Kareena Kapoor"
     ]
 ];
 $catalog[204] = [
-    "title" => "The Princess Bride",
-    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/princess_bride.jpg?alt=media&token=92799559-6050-4e8e-a55d-af00421ce74e",
-    "genre" => "Comedy",
+    "title" => "Sholay",
+    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/sholay.jpg?alt=media&token=f33319e0-cf22-48f9-b875-c49e10c41862",
+    "genre" => "Action,Drama,Comedy",
     "format" => "DVD",
-    "year" => 1987,
+    "year" => 1975,
     "category" => "Movies",
-    "director" => "Rob Reiner",
+    "director" => "Ramesh Sippy",
     "writers" => [
-        "William Goldman"
+        " Salim Khan",
+        "Javed Akhtar"
     ],
     "stars" => [
-        "Cary Elwes",
-        "Mandy Patinkin",
-        "Robin Wright",
-        "Chris Sarandon",
-        "Christopher Guest",
-        "Wallace Shawn",
-        "AndrÃ© the Giant",
-        "Fred Savage",
-        "Peter Falk",
-        "Billy Crystal"
+        "Sanjeev Kumar",
+        "Dharmendra",
+        "Amitabh Bachchan",
+        "Amjad Khan",
+        "Hema Malini",
+        "Jaya Bachchan",
     ]
 ];
 //Music
 $catalog[301] = [
-    "title" => "Beethoven: Complete Symphonies",
-    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/beethoven.jpg?alt=media&token=a361ac3c-f032-4fac-845c-060f51bf3721",
-    "genre" => "Clasical",
+    "title" => "Likhe Jo Khat Tujhe ",
+    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/likhejo.jpg?alt=media&token=ae645849-7b15-438a-8b44-dc68d79c8293",
+    "genre" => "Indian Film Pop",
     "format" => "CD",
-    "year" => 2012,
+    "year" => 1968,
     "category" => "Music",
-    "artist" => "Ludwig van Beethoven"
+    "artist" => "Mohammed Rafi"
 ];
 $catalog[302] = [
-    "title" => "Elvis Forever",
-    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/elvis_presley.jpg?alt=media&token=43861468-c0c4-467f-b1bd-861b62cf27e3",
-    "genre" => "Rock",
-    "format" => "Vinyl",
-    "year" => 2015,
+    "title" => "O Humdum",
+    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/ohumdum.jpg?alt=media&token=db72cd39-e36a-484a-a298-81733731b6ea",
+    "genre" => "Indian Film Pop",
+    "format" => "CD",
+    "year" => 2009,
     "category" => "Music",
-    "artist" => "Elvis Presley"
+    "artist" => " A. R. Rahman"
 ];
 $catalog[303] = [
-    "title" => "No Fences",
-    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/garth_brooks.jpg?alt=media&token=7753aacf-0138-4de3-a0a3-ab3ad181eabd",
-    "genre" => "Country",
-    "format" => "Cassette",
-    "year" => 1990,
+    "title" => "Nadaan Parinde",
+    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/nadanparindey.jpg?alt=media&token=a9f58d3b-9684-4b9f-8aab-118984111cb2",
+    "genre" => "Indian Film Pop",
+    "format" => "CD",
+    "year" => 2011,
     "category" => "Music",
-    "artist" => "Garth Brooks"
+    "artist" => "A. R. Rahman"
 ];
 $catalog[304] = [
-    "title" => "The Very Thought of You",
-    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/nat_king_cole.jpg?alt=media&token=7a835f8b-9d85-4870-9f52-11280b331af5",
-    "genre" => "Jaz",
+    "title" => "Jugnu",
+    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/jugnu.jpg?alt=media&token=6ac22820-a29a-4fa5-ad85-51c1597fec01",
+    "genre" => "Indian Pop",
     "format" => "MP3",
-    "year" => 2008,
+    "year" => 2022,
     "category" => "Music",
     "artist" => "Nat King Cole"
 ];
+
+//Games
+
+$catalog[401] = [
+    "title" => "Clash Of Clans",
+    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/coclogo.png?alt=media&token=35ec60ba-4b29-47cf-a9f0-210cedbc9523",
+    "genre" => "Strategy",
+    "year" => 2012,
+    "Company" => "Super Cell",
+    "Description" => "Clash of Clans is a free-to-play mobile strategy video game developed and published by Finnish game developer Supercell. ",
+    "Platform" => "Mobile, PC",
+    "Ratings" => "4.6",
+    "format" => ".apk",
+    "category" => "Games"
+];
+
+// $catalog[403] = [
+//     "title" => "Clash Of Clans",
+//     "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/coclogo.png?alt=media&token=35ec60ba-4b29-47cf-a9f0-210cedbc9523",
+//     "genre" => "Strategy",
+//     "year" => 2012,
+//     "Company" => "Super Cell",
+//     "Description" => "Clash of Clans is a free-to-play mobile strategy video game developed and published by Finnish game developer Supercell. ",
+//     "Platform" => "Mobile, PC",
+//     "Ratings" => "4.6",
+//     "format" => ".apk",
+//     "category" => "Games"
+// ];
+
+// $catalog[404] = [
+//     "title" => "Clash Of Clans",
+//     "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/coclogo.png?alt=media&token=35ec60ba-4b29-47cf-a9f0-210cedbc9523",
+//     "genre" => "Strategy",
+//     "year" => 2012,
+//     "Company" => "Super Cell",
+//     "Description" => "Clash of Clans is a free-to-play mobile strategy video game developed and published by Finnish game developer Supercell. ",
+//     "Platform" => "Mobile, PC",
+//     "Ratings" => "4.6",
+//     "format" => ".apk",
+//     "category" => "Games"
+// ];

@@ -56,7 +56,24 @@ include("inc/header.php"); ?>
           <th>Year</th>
           <td><?php echo $item["year"]; ?></td>
         </tr>
-         <?php if (strtolower($item["category"]) == "books") { ?>
+         <?php if (strtolower($item["category"]) == "games") { ?>
+            <tr>
+              <th>Company</th>
+              <td><?php echo $item["company"]; ?></td>
+            </tr>
+            <tr>
+              <th>Description</th>
+              <td><?php echo implode(", ", $item["description"]); ?></td>
+            </tr>
+            <tr>
+              <th>Platform</th>
+              <td><?php echo implode(", ", $item["platform"]); ?></td>
+            </tr>
+            <tr>
+              <th>Ratings</th>
+              <td><?php echo implode(", ", $item["ratings"]); ?></td>
+            </tr>
+        <?php } else if (strtolower($item["category"]) == "books") { ?>
             <tr>
               <th>Authors</th>
               <td><?php echo implode(", ", $item["authors"]); ?></td>
@@ -75,7 +92,7 @@ include("inc/header.php"); ?>
               <td><?php echo $item["director"]; ?></td>
             </tr>
             <tr>
-              <th>Writes</th>
+              <th>Writers</th>
               <td><?php echo implode(", ", $item["writers"]); ?></td>
             </tr>
             <tr>
