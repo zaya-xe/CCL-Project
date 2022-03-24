@@ -82,7 +82,24 @@ include("inc/header.php"); ?>
               <th>Stars</th>
               <td><?php echo implode(", ", $item["stars"]); ?></td>
             </tr>
-        <?php } else if (strtolower($item["category"]) == "music") { ?>
+        <?php }  else if (strtolower($item["category"]) == "games") { ?>
+            <tr>
+              <th>Company</th>
+              <td><?php echo $item["company"]; ?></td>
+            </tr>
+            <tr>
+              <th>Description</th>
+              <td><?php echo implode(", ", $item["description"]); ?></td>
+            </tr>
+            <tr>
+              <th>Platform</th>
+              <td><?php echo implode(", ", $item["platform"]); ?></td>
+            </tr>
+            <tr>
+              <th>Ratings</th>
+              <td><?php echo implode(", ", $item["ratings"]); ?></td>
+            </tr>
+        <?php }  else if (strtolower($item["category"]) == "music") { ?>
             <tr>
               <th>Artist</th>
               <td><?php echo $item["artist"]; ?></td>
