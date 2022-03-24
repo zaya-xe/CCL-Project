@@ -117,7 +117,7 @@ $catalog[203] = [
 ];
 $catalog[204] = [
     "title" => "Sholay",
-    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/princess_bride.jpg?alt=media&token=92799559-6050-4e8e-a55d-af00421ce74e",
+    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/sholay.jpg?alt=media&token=f33319e0-cf22-48f9-b875-c49e10c41862",
     "genre" => "Action,Drama,Comedy",
     "format" => "DVD",
     "year" => 1975,
@@ -139,7 +139,7 @@ $catalog[204] = [
 //Music
 $catalog[301] = [
     "title" => "Likhe Jo Khat Tujhe ",
-    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/beethoven.jpg?alt=media&token=a361ac3c-f032-4fac-845c-060f51bf3721",
+    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/likhejo.jpg?alt=media&token=ae645849-7b15-438a-8b44-dc68d79c8293",
     "genre" => "Indian Film Pop",
     "format" => "CD",
     "year" => 1968,
@@ -148,7 +148,7 @@ $catalog[301] = [
 ];
 $catalog[302] = [
     "title" => "O Humdum",
-    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/elvis_presley.jpg?alt=media&token=43861468-c0c4-467f-b1bd-861b62cf27e3",
+    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/ohumdum.jpg?alt=media&token=db72cd39-e36a-484a-a298-81733731b6ea",
     "genre" => "Indian Film Pop",
     "format" => "CD",
     "year" => 2009,
@@ -157,7 +157,7 @@ $catalog[302] = [
 ];
 $catalog[303] = [
     "title" => "Nadaan Parinde",
-    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/garth_brooks.jpg?alt=media&token=7753aacf-0138-4de3-a0a3-ab3ad181eabd",
+    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/nadanparindey.jpg?alt=media&token=a9f58d3b-9684-4b9f-8aab-118984111cb2",
     "genre" => "Indian Film Pop",
     "format" => "CD",
     "year" => 2011,
@@ -166,7 +166,7 @@ $catalog[303] = [
 ];
 $catalog[304] = [
     "title" => "Jugnu",
-    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/nat_king_cole.jpg?alt=media&token=7a835f8b-9d85-4870-9f52-11280b331af5",
+    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/jugnu.jpg?alt=media&token=6ac22820-a29a-4fa5-ad85-51c1597fec01",
     "genre" => "Indian Pop",
     "format" => "MP3",
     "year" => 2022,
