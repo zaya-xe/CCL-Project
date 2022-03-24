@@ -35,30 +35,3 @@ while($line=mysqli_fetch_array($result4)) {
     $catalog[$line['id']]=array('title'=>$line['title'],'img'=>$line['img'],'genre'=>$line['genre'],'year'=>$line['year'],'company'=>$line['company'],'Description'=>$line['Description'],'platform'=>$line['platform'],'ratings'=>$line['ratings'],'format'=>$line['format'],'format'=>$line['format'],'category'=>$line['category']);
     }
 
-
-
-// $catalog[403] = [
-//     "title" => "Clash Of Clans",
-//     "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/coclogo.png?alt=media&token=35ec60ba-4b29-47cf-a9f0-210cedbc9523",
-//     "genre" => "Strategy",
-//     "year" => 2012,
-//     "Company" => "Super Cell",
-//     "Description" => "Clash of Clans is a free-to-play mobile strategy video game developed and published by Finnish game developer Supercell. ",
-//     "Platform" => "Mobile, PC",
-//     "Ratings" => "4.6",
-//     "format" => ".apk",
-//     "category" => "Games"
-// ];
-
-// $catalog[404] = [
-//     "title" => "Clash Of Clans",
-//     "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/coclogo.png?alt=media&token=35ec60ba-4b29-47cf-a9f0-210cedbc9523",
-//     "genre" => "Strategy",
-//     "year" => 2012,
-//     "Company" => "Super Cell",
-//     "Description" => "Clash of Clans is a free-to-play mobile strategy video game developed and published by Finnish game developer Supercell. ",
-//     "Platform" => "Mobile, PC",
-//     "Ratings" => "4.6",
-//     "format" => ".apk",
-//     "category" => "Games"
-// ];

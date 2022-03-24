@@ -46,11 +46,11 @@ include("inc/header.php"); ?>
         </tr>
         <tr>
           <th>Genre</th>
-          <td><?php echo $item["genre"]; ?></td>
+          <td><?php echo implode(", ", $item["genre"]); ?></td>
         </tr>
         <tr>
           <th>Format</th>
-          <td><?php echo $item["format"]; ?></td>
+          <td><?php echo implode(", ", $item["format"]); ?></td>
         </tr>
         <tr>
           <th>Year</th>
