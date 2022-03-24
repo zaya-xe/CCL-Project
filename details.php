@@ -46,11 +46,11 @@ include("inc/header.php"); ?>
         </tr>
         <tr>
           <th>Genre</th>
-          <td><?php echo $item["genre"]; ?></td>
+          <td><?php echo implode(", ", $item["genre"]); ?></td>
         </tr>
         <tr>
           <th>Format</th>
-          <td><?php echo $item["format"]; ?></td>
+          <td><?php echo implode(", ", $item["format"]); ?></td>
         </tr>
         <tr>
           <th>Year</th>
@@ -63,15 +63,15 @@ include("inc/header.php"); ?>
             </tr>
             <tr>
               <th>Description</th>
-              <td><?php echo implode(", ", $item["description"]); ?></td>
+              <td><?php echo $item["description"]; ?></td>
             </tr>
             <tr>
               <th>Platform</th>
-              <td><?php echo implode(", ", $item["platform"]); ?></td>
+              <td><?php echo $item["platform"]; ?></td>
             </tr>
             <tr>
               <th>Ratings</th>
-              <td><?php echo implode(", ", $item["ratings"]); ?></td>
+              <td><?php echo $item["ratings"]; ?></td>
             </tr>
         <?php } else if (strtolower($item["category"]) == "books") { ?>
             <tr>

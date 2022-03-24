@@ -179,38 +179,75 @@ $catalog[304] = [
 $catalog[401] = [
     "title" => "Clash Of Clans",
     "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/coclogo.png?alt=media&token=35ec60ba-4b29-47cf-a9f0-210cedbc9523",
-    "genre" => "Strategy",
+    "genre" => [
+        "Strategy",
+        "MultiPlayer"
+    ],
     "year" => 2012,
-    "Company" => "Super Cell",
-    "Description" => "Clash of Clans is a free-to-play mobile strategy video game developed and published by Finnish game developer Supercell. ",
-    "Platform" => "Mobile, PC",
-    "Ratings" => "4.6",
-    "format" => ".apk",
+    "company" => "Super Cell",
+    "description" => "Clash of Clans is a free-to-play mobile strategy video game developed and published by Finnish game developer Supercell. ",
+    "platform" => "Android, Apple/Iphone",
+    "ratings" => "4.6",
+    "format" => [
+        ".apk",
+        ".ipa"
+    ],
     "category" => "Games"
 ];
 
-// $catalog[403] = [
-//     "title" => "Clash Of Clans",
-//     "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/coclogo.png?alt=media&token=35ec60ba-4b29-47cf-a9f0-210cedbc9523",
-//     "genre" => "Strategy",
-//     "year" => 2012,
-//     "Company" => "Super Cell",
-//     "Description" => "Clash of Clans is a free-to-play mobile strategy video game developed and published by Finnish game developer Supercell. ",
-//     "Platform" => "Mobile, PC",
-//     "Ratings" => "4.6",
-//     "format" => ".apk",
-//     "category" => "Games"
-// ];
+$catalog[402] = [
+    "title" => "Valorant",
+    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/Valorant-Mobile.jpg?alt=media&token=cf1cd4c4-ee60-4579-b25a-049d0c38f116",
+    "genre" => [
+        "First-person",
+        "hero shooter"
+    ],
+    "year" => 2020,
+    "company" => "Riot Games",
+    "description" => "Blend your style and experience on a global, competitive stage. You have 13 rounds to attack and defend your side using sharp gunplay and tactical abilities.",
+    "platform" => "PC",
+    "ratings" => "4.0",
+    "format" => [
+        ".exe",
+    ],
+    "category" => "Games"
+];
 
-// $catalog[404] = [
-//     "title" => "Clash Of Clans",
-//     "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/coclogo.png?alt=media&token=35ec60ba-4b29-47cf-a9f0-210cedbc9523",
-//     "genre" => "Strategy",
-//     "year" => 2012,
-//     "Company" => "Super Cell",
-//     "Description" => "Clash of Clans is a free-to-play mobile strategy video game developed and published by Finnish game developer Supercell. ",
-//     "Platform" => "Mobile, PC",
-//     "Ratings" => "4.6",
-//     "format" => ".apk",
-//     "category" => "Games"
-// ];
+$catalog[403] = [
+    "title" => "Among Us",
+    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/among-us-logo-1-1.jpg?alt=media&token=ee306218-5150-4286-9b73-d61924a5be30",
+    "genre" => [
+        "Party",
+        "Social deduction"
+    ],
+    "year" => 2018,
+    "company" => "Innersloth",
+    "description" => "Among Us is a 2018 online multiplayer social deduction game developed and published by American game studio Innersloth. The game was inspired by the party game Mafia and the science fiction horror film The Thing.",
+    "platform" => "PC, Mobiles",
+    "ratings" => "3.7",
+    "format" => [
+        ".exe",
+        ".apk"
+    ],
+    "category" => "Games"
+];
+
+$catalog[404] = [
+    "title" => "Mortal Kombat",
+    "img" => "https://firebasestorage.googleapis.com/v0/b/phpwebsite-17ea6.appspot.com/o/554029-mortal-kombat-11-xbox-one-front-cover.jpg?alt=media&token=e6127407-9154-45b9-959d-dca3bc42d3d3",
+    "genre" => [
+        "Fighting",
+        "Action"
+    ],
+    "year" => 2019,
+    "company" => "NetherRealm Studios",
+    "description" => "Take control of Earthrealm’s protectors in the game’s two critically acclaimed, time-bending Story Campaigns as they race to stop Kronika from rewinding time and rebooting history. Friendships are tested, and new alliances forged, in the battle to save all of existence.",
+    "platform" => "PC, Mobiles, Console",
+    "ratings" => "4.0",
+    "format" => [
+        ".exe",
+        ".apk",
+        ".PSS"
+    ],
+    "category" => "Games"
+];
