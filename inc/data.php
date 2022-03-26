@@ -2,7 +2,7 @@
 $catalog = [];
 //Books
 
-$conn = new mysqli('testdb.cizkj1gldurq.us-east-1.rds.amazonaws.com', 'admin', 'adminadmin', 'Cats') or die(mysql_error());
+$conn = new mysqli('tryitdatabase.cizkj1gldurq.us-east-1.rds.amazonaws.com', 'admin', 'adminadmin', 'Cats') or die(mysql_error());
 
 $sql = "SELECT * FROM Books";
 $sql2 = "SELECT * FROM Movies";
