@@ -2,12 +2,7 @@
 $catalog = [];
 //Books
 
-define('DB_SERVER', 'miniprojccl.cizkj1gldurq.us-east-1.rds.amazonaws.com');
-define('DB_USERNAME', 'admin');
-define('DB_PASSWORD', 'adminadmin');
-define('DB_DATABASE', 'Cats');
-
-$conn = new mysqli('miniprojccl.cizkj1gldurq.us-east-1.rds.amazonaws.com', 'admin', 'adminadmin', 'Cats') or die(mysql_error());
+$conn = new mysqli('testdb.cizkj1gldurq.us-east-1.rds.amazonaws.com', 'admin', 'adminadmin', 'Cats') or die(mysql_error());
 
 $sql = "SELECT * FROM Books";
 $sql2 = "SELECT * FROM Movies";
